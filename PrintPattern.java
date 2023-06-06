@@ -8,7 +8,7 @@ public class PrintPattern {
             }
             
             for (int k = 1; k <= i; k++) {
-                System.out.print("* " + blue);
+                System.out.print("\u001B[32m* \u001B[0m");
             }
 
             System.out.println();
